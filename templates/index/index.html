@@ -1,0 +1,53 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #9f9d9d;
+}
+
+.active {
+  background-color: #47534f;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+    <li style="float:right"><a  href="#about">Register</a></li>
+  <li style="float:right"><a  href="#about">Login</a></li>
+</ul>
+
+
+<div id="wrap">
+  <div class="bg">
+    <img class="layer2" src="https://www.educationunlimited.com/blog/wp-content/uploads/2019/08/Webp.net-compress-image.jpg" alt="" />
+    <h1 class="layer1">Your ToDo List </h1>
+  </div>
+  <div class="cont">
+    <p> LET YOUR DREAMS COME TRUE </p>
+  </div>
+</div>
